@@ -25,8 +25,7 @@ namespace personal_inforamtion_system_new.Models
         
         
         public string Nationality { get; set; }
-        //[Required]
-        //public string AddressId { get; set; }
+       
 
 
         public virtual List<Address> Addresslist { get; set; }

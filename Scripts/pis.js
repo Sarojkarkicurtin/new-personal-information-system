@@ -342,7 +342,7 @@ function PersonalVM() {
                 }
             },
             updateallValidation: function () {
-                // debugger
+                
                 if (isNullOrEmpty(self.MyModel().FirstName())) {
                     $("#tabs").tabs({ active: 0 });
                     $("#inputFirstName").focus();
@@ -414,38 +414,7 @@ function PersonalVM() {
                     $("#nationality").focus();
                     alert("Nationality must be entered")
                 }
-                //else if (isNullOrEmpty(self.MyAddress().AddressTypeId())) {
-                //    $("#tabs").tabs({ active: 1 });
-                //    $("#addressType").focus();
-                //    alert("Address Type Should must be entered");
-                //}
-                //else if (isNullOrEmpty(self.MyAddress().provinceId())) {
-                //    $("#tabs").tabs({ active: 1 });
-                //    $("#province").focus();
-                //    alert("Province Should must be entered");
-                //}
-                //else if (isNullOrEmpty(self.MyAddress().CityId())) {
-                //    $("#tabs").tabs({ active: 1 });
-                //    $("#city").focus();
-                //    alert("City Should must be entered");
-                //}
-             
-                //else if (isNullOrEmpty(self.MyAddress().Ward())) {
-                //    $("#tabs").tabs({ active: 1 });
-                //    $("#ward").focus();
-                //    alert("Ward Should must be entered");
-                //}
-                //else if (!(self.MyAddress().Ward() < 21)) {
-                //    alert("Ward must be below 20");
-                //    $("#tabs").tabs({ active: 1 });
-                //    $("#ward").focus();
-                //    return;
-                //}
-                //else if (isNullOrEmpty(self.MyAddress().Tole())) {
-                //    $("#tabs").tabs({ active: 1 });
-                //    $("#tole").focus();
-                //    alert("Tole must be entered");
-                //}
+               
                 else if (obj.DataList() == "") {
                     $("#tabs").tabs({ active: 1 });
                     alert("address must be fillup");

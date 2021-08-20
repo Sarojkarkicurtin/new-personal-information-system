@@ -6,30 +6,39 @@ using System.Web;
 
 namespace personal_inforamtion_system_new.Models
 {
-    public class personalinfo
+    public class PersonalInfo
     {
-        [Key]
-        public int PersonId { get; set; }
-        [Required]
+        public int pid { get; set; }
         public string Salutation { get; set; }
-        public string FirstName { get; set; }
-        [Required]
+        public string firstName { get; set; }
+      
+        public string LastName { get; set; }
+       
         public string Email { get; set; }
-        [Required]
+       
         public string Age { get; set; }
-        [Required]
+        
         public string Gender { get; set; }
-        [Required]
+       
         public string PhoneNumber { get; set; }
-        [Required]
-        public string Education { get; set; }
-        [Required]
+        
+        
+        
         public string Nationality { get; set; }
-        [Required]
-        public string AddressId { get; set; }
+        //[Required]
+        //public string AddressId { get; set; }
 
 
-        public virtual List<Address> Address { get; set; }
+        public virtual List<Address> Addresslist { get; set; }
+        public virtual List<Education> Educationlist { get; set; }
     }
-    
+    public class Education
+    {
+        public string chosenEdu { get; set; }
+        
+    }
+
+
+
+
 }

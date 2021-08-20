@@ -16,7 +16,7 @@ namespace personal_inforamtion_system_new.Models
             : base("name=Mcontext")
         {
         }
-        public virtual DbSet<personalinfo> personalinfo { get; set; }
+        public virtual DbSet<PersonalInfo> personalinfo { get; set; }
 
         public virtual DbSet<Address> Address { get; set; }
 

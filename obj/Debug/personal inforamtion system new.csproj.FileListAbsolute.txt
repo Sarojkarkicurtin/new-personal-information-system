@@ -83,3 +83,17 @@ C:\Users\DELL\Desktop\infodev\vsproject\personal inforamtion system new\bin\Enti
 C:\Users\DELL\Desktop\infodev\vsproject\personal inforamtion system new\bin\EntityFramework.SqlServer.xml
 C:\Users\DELL\Desktop\infodev\vsproject\personal inforamtion system new\obj\Debug\personal_inforamtion_system_new.Migrations.personlandaddress.resources
 C:\Users\DELL\Desktop\infodev\vsproject\personal inforamtion system new\obj\Debug\personal inforamtion system new.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\infodev\vsproject\personal inforamtion system new\bin\Google.Apis.Auth.dll
+C:\Users\DELL\Desktop\infodev\vsproject\personal inforamtion system new\bin\Google.Apis.Auth.PlatformServices.dll
+C:\Users\DELL\Desktop\infodev\vsproject\personal inforamtion system new\bin\Google.Apis.Core.dll
+C:\Users\DELL\Desktop\infodev\vsproject\personal inforamtion system new\bin\Google.Apis.dll
+C:\Users\DELL\Desktop\infodev\vsproject\personal inforamtion system new\bin\Google.Apis.PlatformServices.dll
+C:\Users\DELL\Desktop\infodev\vsproject\personal inforamtion system new\bin\Google.Apis.Sheets.v4.dll
+C:\Users\DELL\Desktop\infodev\vsproject\personal inforamtion system new\bin\Google.Apis.pdb
+C:\Users\DELL\Desktop\infodev\vsproject\personal inforamtion system new\bin\Google.Apis.xml
+C:\Users\DELL\Desktop\infodev\vsproject\personal inforamtion system new\bin\Google.Apis.Auth.pdb
+C:\Users\DELL\Desktop\infodev\vsproject\personal inforamtion system new\bin\Google.Apis.Auth.xml
+C:\Users\DELL\Desktop\infodev\vsproject\personal inforamtion system new\bin\Google.Apis.Core.pdb
+C:\Users\DELL\Desktop\infodev\vsproject\personal inforamtion system new\bin\Google.Apis.Core.xml
+C:\Users\DELL\Desktop\infodev\vsproject\personal inforamtion system new\bin\Google.Apis.Sheets.v4.pdb
+C:\Users\DELL\Desktop\infodev\vsproject\personal inforamtion system new\bin\Google.Apis.Sheets.v4.xml

@@ -141,17 +141,7 @@
             <h2 style="text-align: center;">Address Form</h2>
             <div data-bind="with: MyAddress">
                 <div id="dataGrid"></div>
-                <div class="col-md-4" style="padding-top: 25px;">
-                    <button class="btn btn-success col-md-3" data-bind="event: {click: $root.submit},enable: $root.submitaddress"
-                            type="button" id="btnsubmit">
-                        <i class="fas fa-save fa-md"> Submit</i>
-                    </button>
-
-                    <div class=" col-md-3">
-                        <button class="btn btn-primary" data-bind="event: {click: $root.Update},enable: $root.enableDisableUpd" type="button" id="btnupdate"><i class="fas fa-backspace fa-md"> Update</i></button>
-                    </div>
-                </div>
-
+              
                 <div class="abcd" style="padding-top:20px">
 
                     <div class=" col-md-4">
@@ -188,26 +178,26 @@
                         </select>
                     </div>
                     @*<div class=" col-md-4">
-                        <label for="CityCategory">City Category:       </label>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input1" value="Metroplitan"
-                                   data-bind="checked:selectedCat, enable:$root.enableDisable" type="radio"
-                                   name="cityCategory" id="metroplitan">
-                            <label class="form-check-label" for="metroplitan">Metroplitan</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input1" value="Municipality"
-                                   data-bind="checked:selectedCat,enable:$root.enableDisable" type="radio"
-                                   name="cityCategory" id="municipality">
-                            <label class="form-check-label" for="municipality">Municipality</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input1" value="SubMunicipality"
-                                   data-bind="checked:selectedCat,enable:$root.enableDisable" type="radio"
-                                   name="cityCategory" id="subMunicipality">
-                            <label class="form-check-label" for="subMunicipality">Sub Municipality</label>
-                        </div>
-                    </div>*@
+                    <label for="CityCategory">City Category:       </label>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input1" value="Metroplitan"
+                               data-bind="checked:selectedCat, enable:$root.enableDisable" type="radio"
+                               name="cityCategory" id="metroplitan">
+                        <label class="form-check-label" for="metroplitan">Metroplitan</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input1" value="Municipality"
+                               data-bind="checked:selectedCat,enable:$root.enableDisable" type="radio"
+                               name="cityCategory" id="municipality">
+                        <label class="form-check-label" for="municipality">Municipality</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input1" value="SubMunicipality"
+                               data-bind="checked:selectedCat,enable:$root.enableDisable" type="radio"
+                               name="cityCategory" id="subMunicipality">
+                        <label class="form-check-label" for="subMunicipality">Sub Municipality</label>
+                    </div>
+                </div>*@
                     <div class=" col-md-4">
                         <label for="Ward">Ward</label>
                         <input type="text" class="form-control"
@@ -226,6 +216,16 @@
 
 
             </div>
+            <div class="col-md-4" style="padding-top: 25px;">
+            <button class="btn btn-success col-md-3" data-bind="event: {click: $root.submit},enable: $root.submitaddress"
+                    type="button" id="btnsubmit">
+                <i class="fas fa-save fa-md"> Submit</i>
+            </button>
+
+            <div class=" col-md-3">
+                <button class="btn btn-primary" data-bind="event: {click: $root.Update},enable: $root.enableDisableUpd" type="button" id="btnupdate"><i class="fas fa-backspace fa-md"> Update</i></button>
+            </div>
+        </div>
 
         </div>
         <div id="tabs-3">
